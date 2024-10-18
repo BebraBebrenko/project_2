@@ -47,7 +47,6 @@
         <p><strong>Скорость ветра:</strong> {{ end_weather['Wind']['Speed']['Metric']['Value'] }} км/ч</p>
         <p><strong>Дневное время:</strong> {{ 'Да' if end_weather['IsDayTime'] else 'Нет' }}</p>
         <p><strong>Осадки:</strong> {{ 'Да' if end_weather['HasPrecipitation'] else 'Нет' }}</p>
-        <p>end_weather['HasPrecipitation']</p>
         <p><strong>Оценка погодных условий:</strong> 
             {% if end_assessment.startswith("Неблагоприятные") %}
                 <span class="bad">{{ end_assessment }}</span>
