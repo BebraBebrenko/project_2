@@ -25,7 +25,7 @@ python test.py
 ## Запуск проекта
 Перейдите в корень проекта (где находится файл docker-compose.yml) и выполните команду:
 ```bash
-docker compose up
+docker compose up --build
 ```
 
 Откройте браузер и перейдите по адресу localhost
