@@ -2,7 +2,7 @@ import os
 import requests
 import json
 
-API_KEY = "SoLbUL294HuTYFaF1WgN3MXcdioU8j5G"
+API_KEY = "kH9kvBtyOYJ9qTwVY06ZZ5a9QlzZ0L45"
 
 def get_location_key(city):
     url = f"http://dataservice.accuweather.com/locations/v1/cities/search?apikey={API_KEY}&q={city}"

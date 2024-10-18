@@ -1,9 +1,9 @@
 [
     {
-        "LocalObservationDateTime": "2024-10-18T17:56:00+03:00",
-        "EpochTime": 1729263360,
-        "WeatherText": "Partly cloudy",
-        "WeatherIcon": 35,
+        "LocalObservationDateTime": "2024-10-18T20:52:00+03:00",
+        "EpochTime": 1729273920,
+        "WeatherText": "Mostly cloudy",
+        "WeatherIcon": 38,
         "HasPrecipitation": false,
         "PrecipitationType": null,
         "IsDayTime": false,
